@@ -221,7 +221,7 @@ public class PantallaVideo extends javax.swing.JFrame {
 	
 	//lectura de las dll
 	static{	
-	    NativeLibrary.addSearchPath(RuntimeUtil.getLibVlcLibraryName(), "C:/Program Files/VideoLAN/VLC/");
+	    NativeLibrary.addSearchPath(RuntimeUtil.getLibVlcLibraryName(), "C:\\Users\\Laboratorio\\Desktop\\ElioPlayer");
 	    Native.loadLibrary(RuntimeUtil.getLibVlcLibraryName(), LibVlc.class);
 	}
     
